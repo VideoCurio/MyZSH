@@ -4,17 +4,19 @@
 
 An elegant Zsh prompt with current user, machine name, virtual environment, current directory, and time (with current timezone).
 
+![screenshot](doc/screenshot2.png)
+
 ## Install
 
 ### Prerequisites
 
-- [Zsh](https://www.zsh.org) should be installed (v5.0.8 and newer). If not pre-installed (run `zsh --version` to confirm), check the following wiki instructions here: [Installing ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+- [Zsh](https://www.zsh.org) should be installed (v5.0.8 and newer).
 - `curl` or `wget` should be installed
 
 ### Basic installation
 ```bash
 # Make sure zsh is installed (on Debian based Linux distro):
-sudo apt install zsh
+zsh --version || sudo apt install zsh
 # Backup your previous version, if any:
 cp ~/.zshrc ~/.zshrc.old.bak
 # Download my zshrc:
