@@ -18,7 +18,7 @@ sudo apt install zsh
 # Backup your previous version, if any:
 cp ~/.zshrc ~/.zshrc.old.bak
 # Download my zshrc:
-curl -o .zshrc https://github.com/VideoCurio/MyZSH/raw/master/zshrc
+curl -o .zshrc https://raw.githubusercontent.com/VideoCurio/MyZSH/master/zshrc
 # Start it:
 zsh
 # Source it:
