@@ -37,7 +37,11 @@ or modify manually the file `/etc/passwd` and reboot your computer.
 
 - Custom theme and color prompt.
 - Red prompt if you are logged as root.
-- Modern command completion system based on your shell history. 
+- Modern command completion system based on your shell history and command help.
 - `update` will do a complete `apt` update and upgrade, and also a flatpak update. Modify it on non Debian based distro.
 - `history` show the complete history with timestamp.
 - Auto updated terminal window title.
+
+### Notes
+
+Tested on Debian stable with Gnome default terminal.
